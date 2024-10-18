@@ -278,14 +278,6 @@
         document.body.removeChild(a);
         URL.revokeObjectURL(url);
     });
-
-    window.onload = function() {
-    const currentDomain = window.location.hostname;
-
-    if (currentDomain !== 'pixeldrain-bypass.cybar.xyz' && !currentDomain.endsWith('.cybar.xyz')) {
-        window.location.href = 'https://pixeldrain-bypass.cybar.xyz';
-    }
-};
 </script>
 </body>
 </html>
